@@ -19,7 +19,7 @@ En esta lección:
 Como cualquier buen equipo de desarrollo, Tailspin Toys dispone de directrices y requisitos para las prácticas de desarrollo. Entre ellos se incluyen:
 
 - Los comentarios deben explicar la intención y las decisiones no evidentes, en lugar de repetir lo que hace el código.
-- Las funciones exportadas de `db/` y `src/lib/` deben documentar su propósito, parámetros y valores de retorno mediante TSDoc/JSDoc, incluido un argumento `db` inyectable cuando exista.
+- Las funciones exportadas de `db/` y `src/lib/` deben documentar su propósito, parámetros y valores de retorno mediante comentarios de documentación de TypeScript (TSDoc) o JavaScript (JSDoc), incluido un argumento `db` inyectable cuando exista.
 - Los componentes reutilizables de Astro deben documentar sus contratos de `Props`, y los comentarios deben mantenerse actualizados cuando cambie el código relacionado.
 - Deben conservarse las directrices existentes de formato y lint.
 

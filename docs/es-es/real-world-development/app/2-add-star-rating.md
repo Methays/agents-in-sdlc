@@ -6,7 +6,7 @@ authors:
 lastUpdated: 2026-07-09
 ---
 
-En la lección anterior recorriste el espacio de trabajo y utilizaste un chat rápido. Ahora es el momento de iniciar una **sesión de agente** y realizar el primer cambio en el proyecto. Será un cambio pequeño: los juegos ya tienen una valoración por estrellas en sus datos, pero las tarjetas de la página de inicio todavía no la muestran. Pedirás al agente que la muestre, revisarás el cambio y lo combinarás como tu primera solicitud de incorporación de cambios.
+En la lección anterior recorriste el espacio de trabajo y utilizaste un chat rápido. Ahora es el momento de iniciar una **sesión de agente** y realizar el primer cambio en el proyecto. Será un cambio pequeño: los juegos ya tienen una valoración por estrellas en sus datos, pero las tarjetas de la página de inicio todavía no la muestran. Pedirás al agente que la muestre, revisarás el cambio y lo combinarás como tu primera solicitud de incorporación de cambios (PR).
 
 En esta lección:
 
@@ -31,7 +31,7 @@ Dentro de una sesión verás tres elementos: la **conversación** con el agente,
 Vamos a iniciar una sesión nueva para comenzar a explorar el proyecto e implementar la funcionalidad. En una [lección anterior][prior-lesson] añadiste el proyecto desde su repositorio de GitHub. Crearemos una sesión nueva para ese repositorio y solicitaremos el cambio.
 
 1. Vuelve a la aplicación GitHub Copilot o ábrela.
-2. Selecciona **+** junto a **Projects**.
+2. Selecciona **+** en la parte superior de la barra lateral para iniciar una sesión.
 3. Selecciona `tailspin-toys` como repositorio.
 4. Elige **new working tree** y el modo **Interactive** debajo del cuadro de indicaciones. Utiliza la indicación siguiente para solicitar el cambio:
 
@@ -95,10 +95,11 @@ Por supuesto, no basta con leer el código y dar por hecho que funciona. Vamos a
 
 1. Selecciona **Create PR** en la esquina superior derecha.
 2. Si se solicita, selecciona **Sign in with your browser** y sigue las indicaciones para autenticarte.
-3. Copilot comenzará a crear la PR.
-4. Selecciona la burbuja **PR** situada justo encima del chat para abrir la solicitud en el panel de revisión. Puedes revisarla aquí según sea necesario.
-5. Cuando esté lista, selecciona **Ready to merge**.
-6. Selecciona **Merge pull request** en el nuevo cuadro de diálogo para combinar la solicitud.
+3. Si Copilot indica que la directiva del repositorio requiere una incidencia asociada antes de crear la PR, confirma que debe seguir ese proceso.
+4. Copilot comenzará a crear la PR.
+5. Selecciona la burbuja **PR** situada justo encima del chat para abrir la solicitud en el panel de revisión. Puedes revisarla aquí según sea necesario.
+6. Cuando esté lista, selecciona **Ready to merge**.
+7. Selecciona **Merge pull request** en el cuadro de diálogo para combinar la solicitud.
 
 ## Resumen y pasos siguientes
 
@@ -118,7 +119,7 @@ A continuación, [partirás de la incidencia de filtrado y utilizarás los modos
 - [Acerca de la aplicación GitHub Copilot][about-copilot-app]
 - [Gestionar incidencias y solicitudes de incorporación de cambios con la aplicación GitHub Copilot][managing-issues-prs]
 
-[prior-lesson]: ../1-install-copilot-app/#instalar-y-configurar-la-aplicación-github-copilot
+[prior-lesson]: ../1-install-copilot-app/#instala-y-configura-la-aplicacion-github-copilot
 [next-lesson]: ../3-agent-modes/
 [agent-sessions]: https://docs.github.com/copilot/how-tos/github-copilot-app/agent-sessions
 [about-copilot-app]: https://docs.github.com/copilot/concepts/agents/github-copilot-app

@@ -77,7 +77,7 @@ lastUpdated: 2026-09-16
    /foundrytk-quick-start Review this agent for deployment readiness, run its tests, then deploy it to my existing tailspin-toys Foundry project. Show me the deployment status and test the deployed agent.
    ```
 
-   ![AIAgentExpert 代理提供的交接选项截图。](../../../../_images/vscode-go-production-handoff.png)
+   ![AIAgentExpert 显示的部署交接选项截图](../../../../_images/vscode-go-production-handoff.png)
 
 2. 在聊天和终端中检查参数及命令批准请求。确认部署目标为现有的 `tailspin-toys` 项目，并在批准前检查计费资源。
 3. 如果 Copilot 提供评估套件，可以选择接受并执行，作为额外检查。
